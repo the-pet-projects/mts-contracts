@@ -1,4 +1,4 @@
-﻿namespace PetProjects.Transactions.Contracts.Topics.V1.Commands
+﻿namespace PetProjects.MicroTransactions.Commands.Transactions.V1
 {
     using System;
     using PetProjects.Framework.Kafka.Contracts.Topics;

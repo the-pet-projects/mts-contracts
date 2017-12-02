@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>PetProjects.MicroTransactions.Commands</AssemblyName>
+    <RootNamespace>PetProjects.MicroTransactions.Commands</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PetProjects.Framework.Kafka.Contracts" Version="0.1.17335.1" />
+  </ItemGroup>
+
+</Project>

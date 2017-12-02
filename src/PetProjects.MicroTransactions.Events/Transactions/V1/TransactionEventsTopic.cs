@@ -1,7 +1,6 @@
-﻿namespace PetProjects.Transactions.Contracts.Topics.V1
+﻿namespace PetProjects.MicroTransactions.Events.Transactions.V1
 {
     using PetProjects.Framework.Kafka.Contracts.Topics;
-    using PetProjects.Transactions.Contracts.Topics.V1.Events;
 
     public class TransactionEventsTopic : ITopic<TransactionEvent>
     {
@@ -9,8 +8,8 @@
 
         public TopicBuilder SetTopicName()
         {
-            return new TopicBuilder(Constants.Transaction, MessageType.Events)
-                .WithApplication(Constants.MicroTransactionSystem);
+            return new TopicBuilder(new Transaction().Name, MessageType.Events)
+                .WithApplication(new MicroTransactionSystem().Name);
         }
     }
 }
