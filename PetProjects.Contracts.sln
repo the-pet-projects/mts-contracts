@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetProjects.Transactions.Contracts", "src\PetProjects.Transactions.Contracts\PetProjects.Transactions.Contracts.csproj", "{BA01C5D3-44CF-44B3-84D7-D57CEE5AB625}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AFD0D97E-8564-4612-B6C0-DD1D1507E86E}"
+	ProjectSection(SolutionItems) = preProject
+		Jenkinsfile = Jenkinsfile
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
