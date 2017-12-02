@@ -1,9 +1,9 @@
 ﻿namespace PetProjects.Transactions.Contracts.Topics.V1.Commands
 {
     using System;
-    using Framework.Kafka.Contracts.Topics;
+    using PetProjects.Framework.Kafka.Contracts.Topics;
 
-    public class TransactionCommands : IMessage
+    public class TransactionCommand : IMessage
     {
         public Guid AggregateId { get; set; }
 
