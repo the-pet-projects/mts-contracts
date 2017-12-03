@@ -1,10 +1,10 @@
 ﻿namespace PetProjects.MicroTransactions.Commands.Transactions
 {
-    public class MicroTransactionSystem
+    public class TransactionsApi
     {
-        public MicroTransactionSystem()
+        public TransactionsApi()
         {
-            this.Name = "micro-transactions-system";
+            this.Name = "transactions-api";
         }
 
         public string Name { get; }

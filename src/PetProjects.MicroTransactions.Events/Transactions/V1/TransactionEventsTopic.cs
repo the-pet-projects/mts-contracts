@@ -9,7 +9,7 @@
         public TopicBuilder SetTopicName()
         {
             return new TopicBuilder(new Transaction().Name, MessageType.Events)
-                .WithApplication(new MicroTransactionSystem().Name);
+                .WithApplication(new TransactionsApi().Name);
         }
     }
 }
