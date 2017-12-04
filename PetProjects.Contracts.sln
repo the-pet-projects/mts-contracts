@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AFD0D97E-8564-4612-B6C0-DD1D1507E86E}"
+	ProjectSection(SolutionItems) = preProject
+		Jenkinsfile = Jenkinsfile
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetProjects.MtsTransactions.Commands", "src\PetProjects.MicroTransactions.Commands\PetProjects.MtsTransactions.Commands.csproj", "{265C2A48-3D66-4EDC-AA43-92C3DC755FF9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetProjects.MicroTransactions.Events", "src\PetProjects.MicroTransactions.Events\PetProjects.MicroTransactions.Events.csproj", "{4BF187DF-CC11-4536-8086-AC218C3CF136}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CCEF5C4E-01CB-4D0E-9E59-E4013E9304E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E0E4E8B3-272E-44AB-855B-6A53F009FF8D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetProjects.Test.TempProject", "test\unit\PetProjects.Test.TempProject\PetProjects.Test.TempProject.csproj", "{4E987992-7D6B-4202-A93F-0D8CD4DE689A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{265C2A48-3D66-4EDC-AA43-92C3DC755FF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{265C2A48-3D66-4EDC-AA43-92C3DC755FF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{265C2A48-3D66-4EDC-AA43-92C3DC755FF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{265C2A48-3D66-4EDC-AA43-92C3DC755FF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BF187DF-CC11-4536-8086-AC218C3CF136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BF187DF-CC11-4536-8086-AC218C3CF136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BF187DF-CC11-4536-8086-AC218C3CF136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BF187DF-CC11-4536-8086-AC218C3CF136}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E987992-7D6B-4202-A93F-0D8CD4DE689A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E987992-7D6B-4202-A93F-0D8CD4DE689A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E987992-7D6B-4202-A93F-0D8CD4DE689A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E987992-7D6B-4202-A93F-0D8CD4DE689A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{265C2A48-3D66-4EDC-AA43-92C3DC755FF9} = {CCEF5C4E-01CB-4D0E-9E59-E4013E9304E9}
+		{4BF187DF-CC11-4536-8086-AC218C3CF136} = {CCEF5C4E-01CB-4D0E-9E59-E4013E9304E9}
+		{4E987992-7D6B-4202-A93F-0D8CD4DE689A} = {E0E4E8B3-272E-44AB-855B-6A53F009FF8D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68373DC5-EAAA-4689-8227-9A9BAB2FFA67}
+	EndGlobalSection
+EndGlobal
