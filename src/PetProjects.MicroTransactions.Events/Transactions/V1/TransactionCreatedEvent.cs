@@ -2,7 +2,7 @@
 {
     using System;
 
-    public class TransactionCreated : TransactionEvent
+    public class TransactionCreatedEvent : TransactionEventV1
     {
         public Guid TransactionId { get; set; }
 

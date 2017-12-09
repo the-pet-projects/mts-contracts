@@ -2,7 +2,7 @@
 {
     using System;
 
-    public class CreateTransaction : TransactionCommand
+    public class CreateTransactionCommand : TransactionCommandV1
     {
         public Guid TransactionId { get; set; }
 

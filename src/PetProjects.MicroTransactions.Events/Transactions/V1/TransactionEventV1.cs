@@ -1,10 +1,10 @@
-﻿namespace PetProjects.MicroTransactions.Commands.Transactions.V1
+﻿namespace PetProjects.MicroTransactions.Events.Transactions.V1
 {
     using System;
     using PetProjects.Framework.Kafka.Contracts.Topics;
     using PetProjects.Framework.Kafka.Contracts.Utils;
 
-    public class TransactionCommand : IMessage
+    public class TransactionEventV1 : IMessage
     {
         public Guid UserId { get; set; }
 
