@@ -6,27 +6,9 @@
 
     public class TransactionEvent : IMessage
     {
-        public TransactionEvent(Guid userId, DateTime dateTime)
-        {
-            this.UserId = userId;
-            this.Timestamp = new Timestamp(dateTime);
-        }
-
-        public TransactionEvent(Guid userId, Timestamp timestamp)
-        {
-            this.UserId = userId;
-            this.Timestamp = timestamp;
-        }
-
-        public TransactionEvent(Guid userId)
-        {
-            this.UserId = userId;
-            this.Timestamp = new Timestamp();
-        }
-
         public Guid UserId { get; set; }
 
-        public Timestamp Timestamp { get; set; }
+        public Timestamp Timestamp { get; set; } = new Timestamp();
 
         public string GetPartitionKey() => $"{this.UserId}";
     }
