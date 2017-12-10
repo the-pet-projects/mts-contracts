@@ -6,16 +6,9 @@
     {
         private const int Version = 1;
 
-        private readonly string environment;
-
         public TransactionEventsTopicV1(string environment)
+            : base(new TopicConfig(new Transaction().Name, MessageType.Events, new TransactionsApi().Name, environment, Version))
         {
-            this.environment = environment;
-        }
-        
-        public override TopicBuilder SetupTopicBuilder()
-        {
-            return new TopicBuilder(new TopicConfig(new Transaction().Name, MessageType.Events, new TransactionsApi().Name, this.environment, Version));
         }
     }
 }
